@@ -1,0 +1,107 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: darkblue;
+}
+p{
+    font-size: 18px;
+}
+.haber{
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 20px;
+    border: solid #ccc;
+    border-radius: 6px;
+
+}
+.h2{
+    color: darkred;
+    font-size: 22px;
+
+}
+.haber p{
+    color: #333;
+    font-size: 16px;
+
+}
+.tarih{
+    color: gray;
+    font-size: 12px;
+}
+header{
+    background-color: rgb(88, 123, 127);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgb(0,0,0.3);
+    border-bottom: 5px solid #ff3c3c;
+}
+header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px black;
+}
+.slogan{
+    font-style: italic;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+.menu{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+.menu-item{
+display: inline-block;
+color: white;
+background-color: #2980b9;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 4px;
+font-weight: bold;
+cursor: pointer;
+
+}
+.haber.yazılım{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff7e6;
+     color: darkred;
+     padding: 15px;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     font-weight: bold;
+     box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
+
+
+}
+.haber.bayram{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #e0f7ff;
+    color: darkblue;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
+
+
+
+}
+.haber.istanbul{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #e0ffe0;
+    color: darkgreen;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
+}
