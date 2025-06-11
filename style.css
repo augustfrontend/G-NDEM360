@@ -4,10 +4,11 @@ body{
 
 }
 h1{
-    color: darkblue;
+    color: rgb(64, 76, 99);
 }
 p{
     font-size: 18px;
+    
 }
 .haber{
     background-color: #ffffff;
@@ -28,11 +29,11 @@ p{
 
 }
 .tarih{
-    color: gray;
+    color: rgb(15, 6, 6);
     font-size: 12px;
 }
 header{
-    background-color: rgb(88, 123, 127);
+    background-color: rgb(196, 203, 203);
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -48,7 +49,7 @@ header h1{
 .slogan{
     font-style: italic;
     font-size: 16px;
-    color: #dcdcdc;
+    color: #163cae;
 }
 .menu{
     text-align: center;
@@ -57,7 +58,7 @@ header h1{
     padding: 10px;
 }
 .menu-item{
-display: inline-block;
+    display: inline-block;
 color: white;
 background-color: #2980b9;
 padding: 10px 20px;
@@ -66,52 +67,77 @@ border-radius: 4px;
 font-weight: bold;
 cursor: pointer;
 
-}
-.haber.yazılım{
-    width: 70%;
-    margin: 20px auto;
-    background-color: #fff7e6;
-     color: darkred;
-     padding: 15px;
-     border-radius: 6px;
-     border: 1px solid #ccc;
-     font-weight: bold;
-     box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
-
 
 }
-.haber.bayram{
-    width: 70%;
-    margin: 20px auto;
-    background-color: #e0f7ff;
-    color: darkblue;
-    padding: 15px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
 
-
-
-}
-.haber.istanbul{
+.haber-kutu{
     width: 70%;
     margin: 20px auto;
     background-color: #e0ffe0;
-    color: darkgreen;
+    color: rgb(146, 133, 204);
     padding: 15px;
     border-radius: 6px;
     border: 1px solid #ccc;
     font-weight: bold;
     box-shadow: 2px 2px 5px rgba(0,0,0,0,2);
+    display: flow-root;
+ 
+
 }
+/*her haber için özel görünüm*/
+.haber-yazılım{
+    background-color: #e5e3e8;
+    border: 1px solid #e6b800;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px color rgb(140, 140, 193);
+    display: flow-root;
+}
+.haber-bayram{
+    background-color: #e5e3e8;
+    border: 1px solid #7dd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px color rgb(156, 181, 156);
+
+}
+.haber-istanbul{
+    background-color: #e5e3e8;
+    border: solid rgb(54, 29, 168);
+        padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px color rgb(159, 109, 109);
+}
+.haber-saç{
+     background-color: #e5e3e8;
+    border: solid rgb(54, 29, 168);
+        padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px color rgb(159, 109, 109);
+} 
+
 .banner{
-    width: 90%;
-    margin: 0 auto;
-       padding: 20px;
-          background-color: #f5f5f5;
+    width: 70%;
+    margin: 20px auto;
+    background-color: #cec0c0;
+    color: rgb(152, 63, 80);
+       padding: 15px;
+       border-radius: 6px;
+       border: 1px solid #807474;
+       font-weight: bold;
+       box-shadow: 2px 2px 5px #7e9fb2;
+      
           
-    border-bottom: 2px solid #993b3b;
+          
+    border-bottom: 2px solid #583f3f;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
@@ -127,12 +153,39 @@ margin-bottom: 15px;
 }
 .banner h2{
      font-size: 22px;
-   color: #c60000;
+   color: #fb0303;
    margin-bottom: 10px;
 }
 .banner p{
     font-size: 22px;
-    color: #444;
+    color: #e7eced;
 }
+.haber-kutu:hover{
+    background-color: #dceeff;
+    transform: scale(1.01);
+    transition: 0.3 ease;
+}
+.kategori{
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/*ya da 90%,80% gibi daha küçük bir değer*/
+.haber-img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+   display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    object-fit: cover;
+    
+
+}
+    
    
  
