@@ -123,34 +123,36 @@ cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 0 8px color rgb(159, 109, 109);
 } 
+* {
+    box-sizing: border-box;
+}
 
 .banner{
-    width: 70%;
-    margin: 20px auto;
-    background-color: #f6f6f6;
-    color:rgb(117, 60, 60)
-       padding: 15px;
-       border-radius: 6px;
-       border: 1px solid #807474;
-       font-weight: bold;
-       box-shadow: 2px 2px 5px #dfe5e8;
-      
-          
-          
+    max-width: 600px;
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #807474;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #dfe5e8;
     border-bottom: 2px solid #583f3f;
-    border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
- 
+    margin-top: 30px;
+    background-color: #f6f6f6;
+    color:rgb(117, 60, 60)
+    
+    
  
 }
 .banner img{
-    width: 400px;
-    max-width: 300px;
+    width: 100%;
     height: auto;
-border-radius: 15px;
-margin-bottom: 20px;
-padding:20px 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+
 }
 .banner h2{
      font-size: 22px;
